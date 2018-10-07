@@ -1,0 +1,315 @@
+(pubkey, privkey) = rsa.newkeys(512)
+    #明文编码格式
+    content = str.encode('utf-8')
+    #公钥加密
+    crypto = rsa.encrypt(content,pubkey)
+(pubkey, privkey) = rsa.newkeys(512)
+    #明文编码格式
+    content = str.encode('utf-8')
+    #公钥加密
+    crypto = rsa.encrypt(content,pubkey)
+(pubkey, privkey) = rsa.newkeys(512)
+    #明文编码格式
+    content = str.encode('utf-8')
+    #公钥加密
+    crypto = rsa.encrypt(content,pubkey)
+    padded = _pad_for_encryption(message, keylength)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\sit
+e-packages\rsa\pkcs1.py", line 110, in _pad_for_encryption
+    message])
+TypeError: sequence item 3: expected a bytes-like object, str found
+
+C:\Users\Administrator>python web/bb64.py
+0085851481e493f91efec64022df278c5e87277e6652f1f8c9ddcc0e71ef1471da656f1e7b121887
+8309c352e3e1e53c0550760c5bac4f5b2a7efe924f55c45ad7d87ce791d894136ecedea8408dbd21
+d809791cbc519268747f225959a9e08b799272185b92afd0d6d4d3aa6eee20a617289035441f6e3c
+0963464407342e40b7 AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4
+eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1
+NOqbu4gphcokDVEH248CWNGRAc0LkC3
+Traceback (most recent call last):
+  File "web/bb64.py", line 79, in <module>
+    print(rsaenc(key))
+  File "web/bb64.py", line 69, in rsaenc
+    crypto = str(rsa.encrypt("hello", rsa_pubkey,len(key)))
+TypeError: encrypt() takes 2 positional arguments but 3 were given
+
+C:\Users\Administrator>python web/bb64.py
+0085851481e493f91efec64022df278c5e87277e6652f1f8c9ddcc0e71ef1471da656f1e7b121887
+8309c352e3e1e53c0550760c5bac4f5b2a7efe924f55c45ad7d87ce791d894136ecedea8408dbd21
+d809791cbc519268747f225959a9e08b799272185b92afd0d6d4d3aa6eee20a617289035441f6e3c
+0963464407342e40b7 AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4
+eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1
+NOqbu4gphcokDVEH248CWNGRAc0LkC3
+Traceback (most recent call last):
+  File "web/bb64.py", line 79, in <module>
+    print(rsaenc(key))
+  File "web/bb64.py", line 69, in rsaenc
+    crypto = str(rsa.encrypt("hello", rsa_pubkey))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\sit
+e-packages\rsa\pkcs1.py", line 170, in encrypt
+    padded = _pad_for_encryption(message, keylength)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\sit
+e-packages\rsa\pkcs1.py", line 110, in _pad_for_encryption
+    message])
+TypeError: sequence item 3: expected a bytes-like object, str found
+
+C:\Users\Administrator>python web/bb64.py
+0085851481e493f91efec64022df278c5e87277e6652f1f8c9ddcc0e71ef1471da656f1e7b121887
+8309c352e3e1e53c0550760c5bac4f5b2a7efe924f55c45ad7d87ce791d894136ecedea8408dbd21
+d809791cbc519268747f225959a9e08b799272185b92afd0d6d4d3aa6eee20a617289035441f6e3c
+0963464407342e40b7 AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4
+eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1
+NOqbu4gphcokDVEH248CWNGRAc0LkC3
+PublicKey(9376082313621114672953008364046316834176334650489598307519018486326243
+97353705061252067811666562451376482707451528559250503517738274384355775368811114
+23351031942554189166770001830556685774064038764373835488801842848184175839725026
+087606284976670070010681277263392755050137965167989371842318181704538656751799,
+65537)
+Traceback (most recent call last):
+  File "web/bb64.py", line 81, in <module>
+    print(rsaenc(key))
+  File "web/bb64.py", line 71, in rsaenc
+    crypto = str(rsa.encrypt("hello", rsa_pubkey))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\sit
+e-packages\rsa\pkcs1.py", line 170, in encrypt
+    padded = _pad_for_encryption(message, keylength)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\sit
+e-packages\rsa\pkcs1.py", line 110, in _pad_for_encryption
+    message])
+TypeError: sequence item 3: expected a bytes-like object, str found
+
+C:\Users\Administrator>python web/bb64.py
+0085851481e493f91efec64022df278c5e87277e6652f1f8c9ddcc0e71ef1471da656f1e7b121887
+8309c352e3e1e53c0550760c5bac4f5b2a7efe924f55c45ad7d87ce791d894136ecedea8408dbd21
+d809791cbc519268747f225959a9e08b799272185b92afd0d6d4d3aa6eee20a617289035441f6e3c
+0963464407342e40b7 AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4
+eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1
+NOqbu4gphcokDVEH248CWNGRAc0LkC3
+PublicKey(9376082313621114672953008364046316834176334650489598307519018486326243
+97353705061252067811666562451376482707451528559250503517738274384355775368811114
+23351031942554189166770001830556685774064038764373835488801842848184175839725026
+087606284976670070010681277263392755050137965167989371842318181704538656751799,
+65537)
+Traceback (most recent call last):
+  File "web/bb64.py", line 81, in <module>
+    print(rsaenc(key))
+  File "web/bb64.py", line 71, in rsaenc
+    crypto = str(rsa.encrypt('a', rsa_pubkey))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\sit
+e-packages\rsa\pkcs1.py", line 170, in encrypt
+    padded = _pad_for_encryption(message, keylength)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\sit
+e-packages\rsa\pkcs1.py", line 110, in _pad_for_encryption
+    message])
+TypeError: sequence item 3: expected a bytes-like object, str found
+
+C:\Users\Administrator>python web/bb64.py
+0085851481e493f91efec64022df278c5e87277e6652f1f8c9ddcc0e71ef1471da656f1e7b121887
+8309c352e3e1e53c0550760c5bac4f5b2a7efe924f55c45ad7d87ce791d894136ecedea8408dbd21
+d809791cbc519268747f225959a9e08b799272185b92afd0d6d4d3aa6eee20a617289035441f6e3c
+0963464407342e40b7 AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4
+eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1
+NOqbu4gphcokDVEH248CWNGRAc0LkC3
+PublicKey(9376082313621114672953008364046316834176334650489598307519018486326243
+97353705061252067811666562451376482707451528559250503517738274384355775368811114
+23351031942554189166770001830556685774064038764373835488801842848184175839725026
+087606284976670070010681277263392755050137965167989371842318181704538656751799,
+65537)
+Traceback (most recent call last):
+  File "web/bb64.py", line 81, in <module>
+    print(rsaenc(key))
+  File "web/bb64.py", line 71, in rsaenc
+    crypto = str(rsa.encrypt('a', rsa_pubkey))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\sit
+e-packages\rsa\pkcs1.py", line 170, in encrypt
+    padded = _pad_for_encryption(message, keylength)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37-32\lib\sit
+e-packages\rsa\pkcs1.py", line 110, in _pad_for_encryption
+    message])
+TypeError: sequence item 3: expected a bytes-like object, str found
+
+C:\Users\Administrator>python web/bb64.py
+0085851481e493f91efec64022df278c5e87277e6652f1f8c9ddcc0e71ef1471da656f1e7b121887
+8309c352e3e1e53c0550760c5bac4f5b2a7efe924f55c45ad7d87ce791d894136ecedea8408dbd21
+d809791cbc519268747f225959a9e08b799272185b92afd0d6d4d3aa6eee20a617289035441f6e3c
+0963464407342e40b7 AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4
+eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1
+NOqbu4gphcokDVEH248CWNGRAc0LkC3
+PublicKey(9376082313621114672953008364046316834176334650489598307519018486326243
+97353705061252067811666562451376482707451528559250503517738274384355775368811114
+23351031942554189166770001830556685774064038764373835488801842848184175839725026
+087606284976670070010681277263392755050137965167989371842318181704538656751799,
+65537)
+b"\x07\xd0'\x92\xcc\xea\xcb\xf2\xc1\xac\xf7\xdf>\x8cG\xde\xf6\xdd\x86\xc3\xa3\x0
+f\xb4#\x84d@2 \xc4m\x18`\x80\xeb\xcb.\xd4\xed\xa9\x93\x8b\x94\xfd\xaf\x86a@6\xd7
+n\x03P\xe3\xea\xc7\x03\xa0u\x1bX\xa3H\xd2\x86\x06\x8f\xa1M\xbea\xd6\xbd%\xf5\xf0
+\x89\xa8j\xdeC\x08\xbf\xb6/PE\x8b\x92\x11.\xf3\xe9B\x96}f\xf9\xaa\xb0y\x9b\xd0\x
+fd\xe7\xf9\xac\x85\n\xb2\xca\xd67\xbb\x19\xd4'\x82\xdc\x1aF\x9bizT\xff\xe3\xa6"
+
+C:\Users\Administrator>python web/bb64.py
+  File "web/bb64.py", line 72
+    print(hex2b64(crypto))
+                         ^
+IndentationError: unindent does not match any outer indentation level
+
+C:\Users\Administrator>python web/bb64.py
+0085851481e493f91efec64022df278c5e87277e6652f1f8c9ddcc0e71ef1471da656f1e7b121887
+8309c352e3e1e53c0550760c5bac4f5b2a7efe924f55c45ad7d87ce791d894136ecedea8408dbd21
+d809791cbc519268747f225959a9e08b799272185b92afd0d6d4d3aa6eee20a617289035441f6e3c
+0963464407342e40b7 AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4
+eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1
+NOqbu4gphcokDVEH248CWNGRAc0LkC3
+PublicKey(9376082313621114672953008364046316834176334650489598307519018486326243
+97353705061252067811666562451376482707451528559250503517738274384355775368811114
+23351031942554189166770001830556685774064038764373835488801842848184175839725026
+087606284976670070010681277263392755050137965167989371842318181704538656751799,
+65537)
+Traceback (most recent call last):
+  File "web/bb64.py", line 81, in <module>
+    print(rsaenc(key))
+  File "web/bb64.py", line 72, in rsaenc
+    print(hex2b64(crypto))
+  File "web/bb64.py", line 50, in hex2b64
+    c = int(h[i:i+3],16)
+ValueError: invalid literal for int() with base 16: "b'n"
+
+C:\Users\Administrator>python web/bb64.py
+0085851481e493f91efec64022df278c5e87277e6652f1f8c9ddcc0e71ef1471da656f1e7b121887
+8309c352e3e1e53c0550760c5bac4f5b2a7efe924f55c45ad7d87ce791d894136ecedea8408dbd21
+d809791cbc519268747f225959a9e08b799272185b92afd0d6d4d3aa6eee20a617289035441f6e3c
+0963464407342e40b7 AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4
+eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1
+NOqbu4gphcokDVEH248CWNGRAc0LkC3
+PublicKey(9376082313621114672953008364046316834176334650489598307519018486326243
+97353705061252067811666562451376482707451528559250503517738274384355775368811114
+23351031942554189166770001830556685774064038764373835488801842848184175839725026
+087606284976670070010681277263392755050137965167989371842318181704538656751799,
+65537)
+Traceback (most recent call last):
+  File "web/bb64.py", line 81, in <module>
+    print(rsaenc(key))
+  File "web/bb64.py", line 72, in rsaenc
+    print(hex2b64(crypto))
+  File "web/bb64.py", line 50, in hex2b64
+    c = int(h[i:i+3],16)
+ValueError: invalid literal for int() with base 16: b'q1\xbd'
+
+C:\Users\Administrator>python web/bb64.py
+0085851481e493f91efec64022df278c5e87277e6652f1f8c9ddcc0e71ef1471da656f1e7b121887
+8309c352e3e1e53c0550760c5bac4f5b2a7efe924f55c45ad7d87ce791d894136ecedea8408dbd21
+d809791cbc519268747f225959a9e08b799272185b92afd0d6d4d3aa6eee20a617289035441f6e3c
+0963464407342e40b7 AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4
+eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1
+NOqbu4gphcokDVEH248CWNGRAc0LkC3
+PublicKey(9376082313621114672953008364046316834176334650489598307519018486326243
+97353705061252067811666562451376482707451528559250503517738274384355775368811114
+23351031942554189166770001830556685774064038764373835488801842848184175839725026
+087606284976670070010681277263392755050137965167989371842318181704538656751799,
+65537)
+b'Y\xd5\xe4\xaew\x0c\xf5\xc6\xe1\x0b\xcd\xe1Ho\xc7\xd3\xa93.4\x9do_#\xe5\r\x91\x
+96\xcef\xddD`\x0bp\xc1\x0f\\\x19\xa1Q\xa8\x84\x0e\xed\x1a\x97\x13h\xb70\x96W\xfc
+\xe9\xc7\x1a6G4}\xda!b\xa8\xe2=\x01\xcfy\x1f\xfa\x83\xa8\xa2R\x1d\xd2\x9d\xe2lX\
+xe6\xe67nxa\x0cS\x1a\xee\xc72\xc6\x10\xf5\xf2\xc0\x82\x8e\xd6\xa2\xa9\xc2tw\xf7\
+x14\xbe\x04A\xcb8@\xaf\x81\x8e\xf4\x9f\xd7^@\xe2\x94\xc0x\x05'
+
+C:\Users\Administrator>python web/bb64.py
+0085851481e493f91efec64022df278c5e87277e6652f1f8c9ddcc0e71ef1471da656f1e7b121887
+8309c352e3e1e53c0550760c5bac4f5b2a7efe924f55c45ad7d87ce791d894136ecedea8408dbd21
+d809791cbc519268747f225959a9e08b799272185b92afd0d6d4d3aa6eee20a617289035441f6e3c
+0963464407342e40b7 AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4
+eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1
+NOqbu4gphcokDVEH248CWNGRAc0LkC3
+PublicKey(9376082313621114672953008364046316834176334650489598307519018486326243
+97353705061252067811666562451376482707451528559250503517738274384355775368811114
+23351031942554189166770001830556685774064038764373835488801842848184175839725026
+087606284976670070010681277263392755050137965167989371842318181704538656751799,
+65537)
+b'E\xaa\xc0|&`\xc8=\xce\xe6f\xd9\x86\x85a\x8f\x05]:\xee\xae!\xfb\x94\x96\r2\xc1\
+xe1\x87\xef\xc3|\x12\xe2\x1c!\xddV\x90W\xf9\xbf\xb7\xc2\xb3<6]\x92"\x99B\x90q\x1
+3\xf6\xde%tf\xc1\x97\x959w\xea\x9a\xa82$\xef1\xba\xa6~T\xf6\xf6B\x89\xb8\x14\xfe
+xA,\x85\xebp\x91_202\xb3\xd2,.(\xf2+\xdc\x00\x9c\xe6\xdd\x1a\xd5\xc9SC\xb8\xbf\x
+12\xb8\xb3\xb4\xe5$\x0f\xb3\xcf\xb3\xee\xc7\xa2\x08'
+
+C:\Users\Administrator>python web/bb64.py
+0085851481e493f91efec64022df278c5e87277e6652f1f8c9ddcc0e71ef1471da656f1e7b121887
+8309c352e3e1e53c0550760c5bac4f5b2a7efe924f55c45ad7d87ce791d894136ecedea8408dbd21
+d809791cbc519268747f225959a9e08b799272185b92afd0d6d4d3aa6eee20a617289035441f6e3c
+0963464407342e40b7 AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4
+eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1
+NOqbu4gphcokDVEH248CWNGRAc0LkC3
+PublicKey(9376082313621114672953008364046316834176334650489598307519018486326243
+97353705061252067811666562451376482707451528559250503517738274384355775368811114
+23351031942554189166770001830556685774064038764373835488801842848184175839725026
+087606284976670070010681277263392755050137965167989371842318181704538656751799,
+65537)
+b"P\x1c\xb2\x9f/\x87|\x91Dwe\x1b\x0boE@\xffe,\xf3\xf2v\x9a\x91\x00\xb76\xd1\xd5%
+7v3'\x1a\xc72<\x8d\xa8)C`\xf4\xf6\xa1\xa9c\x02\xe0\x1d\x05\x92\x01i\x8bq\x02i\x0
+6\xd9\x95\xcf#\xd6\x17\x98A\xbd\xd2\xb4\x86\xf0n\xf4`\xc0UI\x92\xd6\xd2\x965\x87
+\xd2T\xdft\xf2\x95\xcb\xb7q{\x89\xc1\xc7\x05\x16\xfaCh[\xdf\xc8\xc0\x0c03X\xfe\x
+d4\x8b\xd2\xae\x0e-V\x87\x82\\<\xe1y\x137\xb2"
+
+C:\Users\Administrator>python web/bb64.py
+0085851481e493f91efec64022df278c5e87277e6652f1f8c9ddcc0e71ef1471da656f1e7b121887
+8309c352e3e1e53c0550760c5bac4f5b2a7efe924f55c45ad7d87ce791d894136ecedea8408dbd21
+d809791cbc519268747f225959a9e08b799272185b92afd0d6d4d3aa6eee20a617289035441f6e3c
+0963464407342e40b7 AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4
+eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1
+NOqbu4gphcokDVEH248CWNGRAc0LkC3
+b'i\x92\x103J"k/K_<\xb5}/\x1a\x89\xf3}\x10\xd7\xa3#\x90M\t\xad\xca0$\x10d\xc1\xa
+9^O\x1dtu\xb6K!\x1d\x89.\xe1\xe0\xa8K\xd1\x93|\xbfg\xe7\x92\xa0 p\xb9H\x7f%\xae\
+xed'
+PublicKey(9376082313621114672953008364046316834176334650489598307519018486326243
+97353705061252067811666562451376482707451528559250503517738274384355775368811114
+23351031942554189166770001830556685774064038764373835488801842848184175839725026
+087606284976670070010681277263392755050137965167989371842318181704538656751799,
+65537)
+b'3N>l\xd8\x9cF\x0c$\xfcL\x9c_T\x0f\x03\xdeu\xdeE?q\x00\x88Ee\xd0C)\xfc\x99\xc2\
+xfb~\x94\xac\xba,\xaeG\xef{\x0f9mS\xe3s/\xa5\x14\x00{YY\xe44\xefp\xd1\xe4s\xe3\x
+d6\xfd\x0cz\xd3\x1a\xad\x0et\x8a]\x9cf$\xe0\x9f0\xd3\xc6\xd9\x005g\xc4\\>\xfdk\\
+\x7f\xcbS\x83\xdb@\x0f\xa4\x00{\xbe}\xdc\xf9\\\xa6\xee\x1a}hB4DqP\x14\x8a\xb7\xa
+b\xf1\x91\x8eWb\xfc\x06'
+
+C:\Users\Administrator>python web/bb64.py
+0085851481e493f91efec64022df278c5e87277e6652f1f8c9ddcc0e71ef1471da656f1e7b121887
+8309c352e3e1e53c0550760c5bac4f5b2a7efe924f55c45ad7d87ce791d894136ecedea8408dbd21
+d809791cbc519268747f225959a9e08b799272185b92afd0d6d4d3aa6eee20a617289035441f6e3c
+0963464407342e40b7 AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4
+eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1
+NOqbu4gphcokDVEH248CWNGRAc0LkC3
+Traceback (most recent call last):
+  File "web/bb64.py", line 87, in <module>
+    print(rsaenc(key))
+  File "web/bb64.py", line 74, in rsaenc
+    print(cryptoa.encode())
+AttributeError: 'bytes' object has no attribute 'encode'
+
+C:\Users\Administrator>python web/bb64.py
+0085851481e493f91efec64022df278c5e87277e6652f1f8c9ddcc0e71ef1471da656f1e7b121887
+8309c352e3e1e53c0550760c5bac4f5b2a7efe924f55c45ad7d87ce791d894136ecedea8408dbd21
+d809791cbc519268747f225959a9e08b799272185b92afd0d6d4d3aa6eee20a617289035441f6e3c
+0963464407342e40b7 AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4
+eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1
+NOqbu4gphcokDVEH248CWNGRAc0LkC3
+b"\x83\xde[\xa0Z~\x1e\x9b\xcb\xd1\x10\x04^\x0e?\x19\xee\xb7\x88\x89B\x18l(\xca\x
+f7uP\xf7_\xf3\xe9\xaf?4D1\xb7\x91\xf8\x1a\xb0M\xb4\xff9\x83]\xaf\xba\xdb\x86\xe7
+Q'\xea\xdf\xb1\xf5\x0c\x03\x07\x91M"
+PublicKey(9376082313621114672953008364046316834176334650489598307519018486326243
+97353705061252067811666562451376482707451528559250503517738274384355775368811114
+23351031942554189166770001830556685774064038764373835488801842848184175839725026
+087606284976670070010681277263392755050137965167989371842318181704538656751799,
+65537)
+b'\x1f\x8c\x8c\xfa[\xf4\xaa\x80\x99\xab\xb6Y\xa6Y\xf2\xaa)!\x16L1\xe1jm\x1d\xf4\
+xafE\xb0${\xe5x\xe0G\xa7\xa9*\xf6)\xd2\\\x8e\xf0\\\xa1\x8ej\x9f\xcb\xb5\xdf\xe3\
+xf81\xfeY]B)G\xcf\xd2\x97\t\xbe"\x00\xd5\x19\x1f\xdb\xab/\x97\x08\xdbz\x9e\xa7;R
+7y\x86\xd13\xd0E\x90\xbeM\xc4\xfe\xa4\xda\xfa\x99\xb2\xc4\xf0\x9e2\x1e\x16B\x10\
+xa0\x11<{\xce\x06\xbb\x0b\xbc^\xcdC\x14\x8c\x182\xd4\x18J5\x12'
+
+C:\Users\Administrator>^Y
+'' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\Users\Administrator>^Y
+'' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\Users\Administrator>

@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>张天才科技-分数查询</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link href="https://yss-1253784481.cossh.myqcloud.com/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<style>
+	.brand
+    	{
+    	 color:#68c7f9;
+ 		 text-decoration:none;
+    	}
+</style>
+<head>
+<body style='text-align:left;background-color:#f4f4f4;'>
+
+ <div  style="width:100%;background:#fff;padding-top:15px;">
+    
+      <div   style="">
+        <div    style="padding-left:10px;padding-bottom:15px;">
+         
+          <a class="brand" href="#">分数查询</a>
+          <small style="color:#ddd;">张天才科技</small>
+          
+          
+        </div>
+      </div>
+    </div>
+    <div style="width:98%;height:1px;background:#ddd;"></div>
+	<ul class=entries>
+  {% for item in result['items'] %}
+    <li><h2>{{ item.bj }}</h2></li>
+	<li><h2>{{ item.cj }}</h2></li>
+	<li><h2>{{ item.jd }}</h2></li>
+	<li><h2>{{ item.jgmc }}</h2></li>
+	<li><h2>{{ item.xf }}</h2></li>
+	<li><h2>{{ item.xm }}</h2></li>
+	<li><h2>{{ item.xh }}</h2></li>
+	<li><h2>{{ item.zymc }}</h2></li>
+	<li><h2>{{ item.kcmc}}</h2></li>
+  {% endfor %}
+  </ul>
+
+<br>
+  
+ 
+
+<body>
+</html>

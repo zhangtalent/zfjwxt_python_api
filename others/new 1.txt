@@ -1,0 +1,12 @@
+if __name__ == '__main__':
+	key = 'AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1NOqbu4gphcokDVEH248CWNGRAc0LkC3'
+	s = base64.b64decode(key.encode())
+	print(int.from_bytes(s, byteorder='little'))
+
+{exponent: "AQAB",…}
+exponent
+:
+"AQAB"
+modulus
+:
+AIWFFIHkk/ke/sZAIt8njF6HJ35mUvH4yd3MDnHvFHHaZW8eexIYh4MJw1Lj4eU8BVB2DFusT1sqfv6ST1XEWtfYfOeR2JQTbs7eqECNvSHYCXkcvFGSaHR/IllZqeCLeZJyGFuSr9DW1NOqbu4gphcokDVEH248CWNGRAc0LkC3
